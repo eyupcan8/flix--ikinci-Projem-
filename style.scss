@@ -1,0 +1,474 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+$textColor: #A8927D;
+$textColorsm: #FFD8B9;
+header{   
+    height: 79px;
+}
+.navbar{
+    .navbar-brand{
+        height: 48px;
+        width: auto;
+        object-fit: contain;
+    }
+}
+.btn-search{
+    margin-left: 78px;
+}
+.bgc{
+    background: rgba(1, 1, 1, 0.50);
+}
+.textColorsm{
+    color: $textColorsm;
+}
+.textColor{
+    color: $textColor;
+}
+.textRoboto{
+    font-family: Roboto;
+    font-size: 16px;
+}
+.textPlayfair{
+    font-family: 'Playfair Display', serif;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h4{
+        font-size: 33px;
+    }
+    strong{
+        color: #fff;
+        font-size: 90px;
+        line-height: 1.5;
+        flex-shrink: 0; 
+    }
+}
+.bgc{
+    background-image: url(image/gantavya-bhatt-ExNwSOYfEqM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    position: relative;
+}
+.buton .btn{
+        background-color: #A8927D;
+}
+.social{
+    position: absolute;
+    bottom: 0;
+    li i{
+        color: #A8927D;
+    }
+    ul{
+        gap: 10px;
+    };
+}
+.studio{
+    h4{
+        font-size: 33px;
+    }
+    strong{
+        font-size: 75px;
+        line-height: 100%;
+    }
+    p{
+        line-height: 150%;
+        font-weight: 600;
+        margin-top: 18px;
+    }
+}
+.movie{
+    margin-top: 88px;
+}
+.counter-flex{
+    .counter{
+        font-size: 60px;
+        font-family: 'Antonio', sans-serif;
+        color: #fff;
+    }
+    p{
+       color: $textColorsm; 
+       font-size: 16px;
+       
+    }
+}
+.awardness{
+    h4{
+        color: $textColor;
+    }
+    strong{
+        font-family: 'Playfair Display', serif;
+        font-size: 54px;
+        color: #fff;
+    }
+    p{
+        font-size: 16px;
+        color: #F0F0F0;
+    }
+}
+.prestigios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    h6{
+        color: #fff;
+    }
+    p{
+        color: $textColorsm;
+    }
+}
+.servicesBgc{
+    background-image: url(image/wil-stewart-RpDA3uYkJWM-unsplash.jpg);
+    background-size: cover;
+}
+.servicesText{
+    row-gap: 48px;
+}
+.servicesText{
+    font-family: 'Playfair Display', serif;
+}
+.overlayBgc{
+    background-image: url(image/marcos-paulo-prado-QYVCzK-bnYU-unsplash.jpg);
+    background-size: cover;
+    padding: 108px;
+        h3{
+        font-size: 55px;
+        color: #fff;
+    }
+}
+.overlayCol{
+    h3{
+    margin-bottom: revert;
+    font-family: 'Playfair Display', serif;
+
+    }
+
+}
+.progressİmg{
+    background-size: cover;
+}
+.skillBgc{
+    background-image: url(image/michael-hull-UdvXJ95Yqt8-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+
+.body1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    min-height: 42vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .skill-main {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .skill-wrrap {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .skill-name {
+        color:#000;
+        font-size: 16px;
+        font-weight: 500;
+      }
+  
+      .skill-bar {
+        height: 4px;
+        background-color: #00283a;
+        border-radius: 8px;
+      }
+  
+      .skill-per {
+        height: 4px;
+        background: #A8927D;
+        border-radius: 8px;
+        width: 0;
+        transition: 1s linear;
+        position: relative;
+        &:before {
+          content: attr(per);
+          position: absolute;
+          padding: 4px 6px;
+          background-color: #A8927D;
+          color: #fff;
+          font-size: 11px;
+          border-radius: 4px;
+          top: -35px;
+          right: 0;
+          transform: translateX(50%);
+        }
+  
+        &:after {
+          content: "";
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          background-color: #A8927D;
+          top: -20px;
+          right: 0;
+          transform: translateX(50%) rotate(45deg);
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+.teamText{
+    gap: 20px;
+    h3{
+        font-family: 'Playfair Display', serif;
+        font-size: 55px;
+
+    }
+}
+.textİmg{
+    gap: 8px;
+    font-family: "Roboto", sans-serif;
+    h5{
+    color: #737272;
+    }
+    h6{
+        color: #2B2B2B;
+    }
+}
+.starsss{
+    border-radius: 24px;
+    box-shadow: 3px 8px 19px 0px #67390d;
+    display: flex;
+    width: 306px;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+.regina{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.text{
+    h6{
+        font-size: 33px;
+        color: #A8927D;
+    }
+    h2{
+        font-size: 55px;
+        font-family: 'Playfair Display', serif;
+
+    }
+}
+.did{
+    h4{
+        font-size: 33px;
+        color: #A8927D;
+    }
+    h3{
+        font-size: 55px;
+        color: #FFF;
+        font-family: 'Playfair Display', serif;
+    }
+}
+.line{
+    width: auto;
+    height: 1px;
+    background: rgba(51, 51, 51, 0.50);
+}
+.messageText{
+    h4{
+    font-size: 33px;
+    color: #A8927D;
+    }
+    h3{
+        color: #010101;
+        font-size: 55px;
+        font-family: 'Playfair Display', serif;
+        flex-shrink: 0;
+
+    }
+}
+  
+  .field {
+    position: relative;
+    margin-bottom: 10px;
+    input, textarea {
+      width: 100%;
+      display: block;
+      outline: none;
+      padding: 5px;
+      &:focus {
+        border: 2px solid #A8927D;
+      }
+      &:focus + label {
+        display: block;
+      }
+    }
+    textarea {
+      height: 150px;
+    }
+    label {
+      width: 100%;
+      background-color: #eb7b03;
+      display: block;
+      color: #fff;
+      padding: 3px;
+      font-size: 12px;
+      font-weight: 300;
+      display: none;
+    }
+  }
+  h2 {
+    font-weight: 300;
+  }
+  
+  .small {
+    width: 45%;
+  }
+  .medium{
+    width: 100%;
+  }
+  .large {
+    float:left;
+    width: 100%;
+  }
+  .commentform{
+    gap: 10px;
+  }
+  .sociall{
+    bottom: 0;
+    li i{
+        color: #A8927D;
+    }
+    ul{
+        gap: 10px;
+    };
+}
+footer{
+    background: rgba(1, 1, 1, 0.80);
+    ul{
+        li{
+            a{
+                font-size: 16px;
+            }
+        }
+    }
+}
+.copyR{
+    font-size: 11px;
+    color: #FFF;
+}
+.aboutText{
+    h2{
+        font-size: 75px;
+        color: #FFD8B9;
+        font-family: 'Playfair Display', serif;
+    }
+}
+.aboutBgc{
+    h5{
+        font-size: 18px;
+    }
+    p{
+        color: #333;
+    }
+    .aboutText{
+        gap: 14px;
+        h3{
+            font-family: 'Playfair Display', serif;
+            font-size: 55px;
+            color: #010101;
+        }
+    }
+}
+.teamMeat{
+    h5{
+        margin-top: 20px;
+        color: #737272;
+
+    }
+}
+.meatDetails{
+    h5{
+        margin-top: 20px;
+        color: #737272;
+    }
+}
+.overlayService{
+    .did{
+        margin-top: 100px;
+    }
+}
+.gearText{
+    h4{
+        color: #A8927D;
+        font-family: 'Playfair Display', serif;
+        font-size: 33px;
+    }
+    strong{
+        font-size: 55px;
+        color: #010101;
+        font-family: 'Playfair Display', serif;
+
+
+    }
+    p{
+        text-align: center;
+    }
+}
+.gearİmg{
+    .img{
+    gap: 18px;
+}
+}
+.projectComment{
+    .projectText{
+        .survival{
+            color: #010101;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .comment{
+            a{
+                font-size: 16px;
+                color: #010101;
+            }
+        }
+    }
+}
+.eror{
+    background-image: url(image/marcos-paulo-prado-QYVCzK-bnYU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+    .erorText{
+        text-align: center;
+        span{
+            font-size: 55px;
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: #FFF;
+        }
+        h1{
+            font-size: 200px;
+            color: #FFD8B9;
+            font-weight: 700;
+
+        }
+    }
+}

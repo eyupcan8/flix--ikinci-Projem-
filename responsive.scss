@@ -1,0 +1,27 @@
+@media screen and (min-width: 993px){
+}
+
+
+@media screen and (max-width: 992px){
+    .main{
+        strong{
+            font-size: 40px;
+            line-height: 1.5;
+        }
+    }    
+    .overlayCol{
+        h3{
+            font-size: 30px;
+        }
+    }
+    .overlayBgc{
+        padding: 68px;
+        background-position: center;
+    }
+    .did{
+        justify-content: flex-start !important;
+        h3{font-size: 44px;
+        }
+    }
+}   
+
